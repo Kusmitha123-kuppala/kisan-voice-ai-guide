@@ -22,6 +22,9 @@ export const Header = () => {
               console.log("Voice input:", isListening ? "Started" : "Stopped");
             }}
           />
+          <p className="text-sm text-primary-foreground/80 max-w-md text-center">
+            Try saying: "What is tomato price?" or "ಟೊಮೇಟೋ ಬೆಲೆ ಏನು?" in Kannada
+          </p>
         </div>
       </div>
     </header>
